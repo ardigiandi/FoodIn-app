@@ -1,3 +1,5 @@
+
+//dropdown menu
 document.addEventListener("DOMContentLoaded", function () {
     const btndropdown = document.getElementById("btn-dropdown");
     const dropdownmenu = document.getElementById("dropdown-menu");
