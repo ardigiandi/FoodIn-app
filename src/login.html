@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./style/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="flex flex-row justify-between">
+      <div class="flex flex-col px-5 lg:px-24 w-full">
+        <h1 class="text-xl font-semibold mt-8">
+          Food<span class="text-biru">In</span>
+        </h1>
+        <h1 class="text-3xl mt-24 font-semibold">
+          Welcome To Food<span class="text-biru">In</span>
+        </h1>
+        <p class="mt-2 text-sm">Welcome back! Please enter your details</p>
+
+        <div class="mt-8">
+          <label for="email" class="block text-sm font-medium mb-2"
+            >Email Address</label
+          >
+          <input
+            type="email"
+            placeholder="cth: example@gmail.com"
+            id="email"
+            name="email"
+            class="w-full w-[484px] h-[44px] border border-black rounded-md px-2"
+            required
+          />
+        </div>
+
+        <div class="mt-5">
+          <label for="password" class="block text-sm font-medium mb-2"
+            >Password</label
+          >
+          <input
+            type="password"
+            placeholder="••••••••"
+            id="password"
+            name="password"
+            class="w-full w-[484px] h-[44px] border border-black rounded-md px-2"
+            required
+          />
+        </div>
+
+        <div class="flex flex-row justify-between mt-5 items-center">
+          <div class="flex items-center space-x-2">
+            <input
+              type="checkbox"
+              id="myCheckbox"
+              class="form-checkbox h-5 w-5 text-blue-500"
+            />
+            <label for="myCheckbox">Remember Me</label>
+          </div>
+          <a href="" class="text-base underline text-biru hover:text-blue-700">Forget Password</a>
+        </div>
+
+      <a href="" class="bg-biru text-center text-white rounded-2xl py-4 mt-5 hover:bg-blue-700">Login Account</a>
+
+        <p class="text-center mt-5">
+          Don’t have account?<a href="" class="text-biru hover:text-blue-800 px-1">Register</a>
+        </p>
+      </div>
+
+      <img
+        src="./img/Group 1.png"
+        alt=""
+        class="w-1/2 h-[707px] hidden lg:block"
+      />
+    </section>
+  </body>
+</html>
